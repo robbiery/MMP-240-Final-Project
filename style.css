@@ -10,7 +10,7 @@ header{
     position: absolute;
     right: 0;
     top: 25px;
-
+    background:cornflowerblue;
     padding: 3px;
 }
 
@@ -138,10 +138,37 @@ nav li:hover .dropdown{ /* Descendent order/hierarchy (the dropdown class within
     
 }
 
+/* site content */
+
 main.home{
     display:grid;
     grid-template-columns: 2fr 1fr;
     column-gap: 1em;
+}
+
+.programCards{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, 285px);
+    grid-gap:20px;
+}
+
+.program-card{
+    max-width:70%;
+    box-shadow: 10px 10px 7px grey;
+    padding:1em;
+    border:solid 1px black;
+}
+
+.program-card p{
+    text-align: justify;
+}
+
+.responsive-img{
+    max-width:100%;
+}
+
+footer{
+    margin-top: 10px;
 }
 
 /* banner */
@@ -160,3 +187,4 @@ main.home{
     line-height: 1.4em;
     color:white;
 }
+
