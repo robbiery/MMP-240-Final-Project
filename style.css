@@ -30,10 +30,31 @@ body{
 
 /* dropdown menu */
 
+.searchPrograms{
+    padding: 10px;
+    border: solid 1px black;
+    align-items: center;
+    justify-content: center;
+}
+
+.programNav ul{
+    justify-content: space-between;
+    
+}
+
+.programNav ul li{
+    position:relative;
+}
+
+.programNav ul li:hover{
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
 nav li{
     list-style-type: none;
-    border: solid 1px black;
-    position: relative;
+    border: solid 1px ;
+    text-align: center;
 }
 
 nav li a{
@@ -45,11 +66,6 @@ nav li a{
 
 li:hover .dropdown li {
     background-color: rgb(181, 181, 181);
-}
-
-nav li img{
-    float: right;
-    width: 15px;
 }
 
 nav a{
@@ -68,11 +84,26 @@ nav li:hover .dropdown{ /* Descendent order/hierarchy (the dropdown class within
     display:block;
 }
 
-@media(min-width:576px){
+.searchPrograms {
+    position: absolute;                     
+    left: 50%;                  
+    transform: translate(-50%); 
+    width: 80%;            
+    max-width: 1000px;         
+    padding: 20px;           
+}
+
+
+@media(min-width:768px){
 
     .topList {
         display:flex;
         max-width:1000px;
+    }
+
+    .programNav ul li{
+        width:100;
+        position:relative;
     }
 
 }
@@ -81,7 +112,6 @@ nav li:hover .dropdown{ /* Descendent order/hierarchy (the dropdown class within
 @media (min-width:768px){
     #topMenu{
         display: flex;
-        position: static;
     }
 
     #topMenu ul{
@@ -90,9 +120,24 @@ nav li:hover .dropdown{ /* Descendent order/hierarchy (the dropdown class within
 
     #topMenu li{
         margin-right: 1em; 
+        border:none;
     }
 
     .show-menu{
         display:none;
     }
+
+    
+}
+
+main.home{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 1em;
+}
+
+/* banner */
+
+.banner{
+
 }

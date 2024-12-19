@@ -6,12 +6,13 @@
         <link href="reset.css" rel="stylesheet" type="text/css" media="all">
         <link href="style.css" rel="stylesheet" type="text/css" media="all">
         <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+        <script src ="showMenu.js"></script>
     </head>
     <body>
         <header>
             <!-- title/logo with font styling, nav bar with the little menu icon (for mobile), search bar -->
             <h1>Design @ CUNY</h1>
-            <button class="show-menu"><span class="material-symbols-outlined">
+            <button class="show-menu" onclick="showMenu()"><span class="material-symbols-outlined">
                 menu_open
                 </span></button>
             <nav id="topMenu">
@@ -27,33 +28,46 @@
             </nav>
         </header>
         <!--div class = "searchPrograms"-->
-        <nav class="programNav">
-            <ul class="topList">
-                <li><a href="#">Discipline<span class=""></span>
-                </a>
-                    <ul class="dropdown">
-                        <li>Digital Design</li>
-                        <li>Animation</li>
-                        <li>Industrial Design</li>
-                    </ul>
-                </li>
-                <li><a href="#">Degree<span class=""></span>
-                </a>
-                    <ul class="dropdown">
-                        <li>Associate</li>
-                        <li>Bachelor</li>
-                    </ul>
-                </li>
-                <li><a href="#">Borough<span class=""></span>
-                </a>
-                    <ul class="dropdown">
-                        <li>Brooklyn</li>
-                        <li>Bronx</li>
-                        <li>Manhattan</li>
-                        <li>Queens</li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
+        <div class="searchPrograms">
+            <h2>Find your program</h2>
+            <p>Search by:</p>
+            <nav class="programNav">
+                <ul class="topList">
+                    <li><a href="#">Discipline<span class=""></span>
+                    </a>
+                        <ul class="dropdown">
+                            <li>Digital Design</li>
+                            <li>Animation</li>
+                            <li>Industrial Design</li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Degree<span class=""></span>
+                    </a>
+                        <ul class="dropdown">
+                            <li>Associate</li>
+                            <li>Bachelor</li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Borough<span class=""></span>
+                    </a>
+                        <ul class="dropdown">
+                            <li>Brooklyn</li>
+                            <li>Bronx</li>
+                            <li>Manhattan</li>
+                            <li>Queens</li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="banner">
+
+        </div>
+        <main class="home">
+
+        </main>
+        <footer>
+            
+        </footer>
     </body>
 </html>
