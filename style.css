@@ -14,16 +14,19 @@ header{
     padding: 3px;
 }
 
-#topMenu ul li {
+#topMenu ul li a {
     color:white;
+    text-decoration: none;
 }
 
-h1{
+h1 a{
     color:white;
+    text-decoration: none;
 }
 
-h2, h3, h4, p{
+h2 a, h3 a, h4 a, p a{
     margin-bottom: 1em;
+    text-decoration: none;
 }
 
 body{
