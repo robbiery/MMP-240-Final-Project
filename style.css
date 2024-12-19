@@ -2,6 +2,7 @@
 header{
     justify-content: space-between;
     display: flex;
+    background:cornflowerblue;
 }
 
 #topMenu{
@@ -9,8 +10,16 @@ header{
     position: absolute;
     right: 0;
     top: 25px;
-    background-color: #fff;
+
     padding: 3px;
+}
+
+#topMenu ul li {
+    color:white;
+}
+
+h1{
+    color:white;
 }
 
 h2, h3, h4, p{
@@ -85,12 +94,11 @@ nav li:hover .dropdown{ /* Descendent order/hierarchy (the dropdown class within
 }
 
 .searchPrograms {
-    position: absolute;                     
-    left: 50%;                  
-    transform: translate(-50%); 
-    width: 80%;            
-    max-width: 1000px;         
-    padding: 20px;           
+                    
+          
+    max-width: 1200px;         
+    padding: 20px;     
+    background:white;      
 }
 
 
@@ -98,7 +106,7 @@ nav li:hover .dropdown{ /* Descendent order/hierarchy (the dropdown class within
 
     .topList {
         display:flex;
-        max-width:1000px;
+        max-width:1200px;
     }
 
     .programNav ul li{
@@ -139,5 +147,16 @@ main.home{
 /* banner */
 
 .banner{
-    
+    padding:2em;
+    padding-top:4em;
+    background: url("images/Queens-College-CUNY.jpg") no-repeat center left/cover;
+    margin-bottom: 2em;
+}
+
+.banner h3{
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 1em;
+    font-size: 2rem;
+    line-height: 1.4em;
+    color:white;
 }
