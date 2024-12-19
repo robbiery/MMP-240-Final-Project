@@ -1,3 +1,9 @@
+a {
+    font-size: inherit;  /* Ensure links inherit the font size from their parent */
+    color: inherit;      /* Inherit color from the parent element */
+    text-decoration: none; /* Remove default underline */
+}
+
 /* header style for mobile */
 header{
     justify-content: space-between;
@@ -17,6 +23,7 @@ header{
 #topMenu ul li a {
     color:white;
     text-decoration: none;
+    font-size: 12px;
 }
 
 h1 a{
