@@ -1,8 +1,3 @@
-a {
-    font-size: inherit;  /* Ensure links inherit the font size from their parent */
-    color: inherit;      /* Inherit color from the parent element */
-    text-decoration: none; /* Remove default underline */
-}
 
 /* header style for mobile */
 header{
